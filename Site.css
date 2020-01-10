@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    }
+.navbar{
+    position: absolute;
+    text-decoration: none;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 72, 26, 0.176);
+    font-family: 'Montserrat-semibold', sans-serif;
+    text-align: right;   
+    z-index: 2;
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    padding-top: 230px;
+    left: center;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Montserrat-semibold', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    top:44px;
+    
+}
+#h{
+    position: relative;
+    right: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+#s{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    right: 200px;
+}
+#a{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    right: 150px;
+}
+#p{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    right: 100px;
+}
+#c{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    right: 50px;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image:url("Fotos/banner.jpg");
+    text-align: center;
+    z-index: 1;
+    /*background-repeat: no-repeat;*/
+    
+}
+#Logo{
+    float: left;
+    margin-left: 10px;
+    text-align: left;
+    
+}
+#bannerlink{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+    background-color: #ff471a;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    top: 50px;
+}
+#bannerlink:hover{
+    color: black;
+    background:#fc4619;
+}
+#sobre{
+    position: relative;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    font-family: 'Montserrat-semibold', sans-serif; 
+    margin-top: 140px;
+}
+#conhecaplanos{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+    background-color: #ff471a;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    top: 50px;
+}
+#conhecaplanos:hover{
+    color: black;
+    background:#fc4619;
+}
+h2{
+    position: relative;
+    text-align: center;
+     font-size: 30px;
+    }
+#atividades{
+    background-color: white;
+    position: absolute;
+    color:#ff471a ;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+#gym{
+    margin-top: 70px;
+    margin-left: 200px;
+    position: relative;
+    filter: brightness(40%); 
+}
+#musculacao{
+    margin-top: -195px;
+    margin-left:800px;
+    position: relative;
+    filter: brightness(40%); 
+}
+#crosstraining{
+    margin-top: 70px;
+    margin-left: 200px;
+    position: relative;
+    filter: brightness(40%); 
+}
+#pilates{
+    margin-top: -195px;
+    margin-left:800px ;
+    position: relative;
+    filter: brightness(40%); 
+}
+#dance{
+    margin-top: 70px;
+    margin-left: 200px;
+    position: relative;
+    filter: brightness(40%); 
+}
+#bike{
+    margin-top:-195px;
+    margin-left:800px ;
+    position: relative;
+    filter: brightness(40%); 
+}
+#func{
+    position: absolute;
+    margin-top: -670px;
+    margin-left: 280px;
+    color: #ff471a;
+    font-size: 30px;
+    
+}
+#saibafunc{
+    font-size: 13px;
+    position: absolute;
+    margin-top: -640px;
+    margin-left: 325px;
+    color: white;
+    opacity: 1;
+    
+    
+}
+#textofunc{
+    position: absolute;
+    margin-top:-635px;
+    margin-left: 320px;
+    font-size: 15px;
+    color: white;
+    display: none;
+}
+#saibafunc:hover, #saibamusc:hover, #saibacross:hover, #saibapila:hover, #saibadanca:hover, #saibabik:hover {
+    opacity: 0;
+}
+#textofunc:hover{
+    opacity: 1;
+}
+#musc{
+    position: absolute;
+    margin-top: -670px;
+    margin-left: 863px;
+    color: #ff471a;
+    font-size: 30px;
+}
+#saibamusc{
+    font-size: 13px;
+    position: absolute;
+    margin-top: -640px;
+    margin-left: 930px;
+    color: white;
+    
+}
+
+#cross{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 244px;
+    color: #ff471a;
+    font-size: 30px;
+}
+#saibacross{
+    font-size: 13px;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 324px;
+    color: white;
+}
+
+#pila{
+    position: absolute;
+    margin-top: -402px;
+    margin-left: 910px;
+    color: #ff471a;
+    font-size: 30px;
+}
+#saibapila{
+    font-size: 13px;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 927px;
+    color: white;
+}
+#danca{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 320px;
+    color: #ff471a;
+    font-size: 30px;
+}
+#saibadanca{
+    font-size: 13px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 330px;
+    color: white;
+}
+#bik{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 940px;
+    color: #ff471a;
+    font-size: 30px;
+}
+#saibabik{
+    font-size: 13px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 935px;
+    color: white;
+}
+h3{
+    color:#ff471a ;
+    font-size: 25px;
+    position: absolute
+    text-align: center;
+    margin-top: 75px;
+    
+    margin-left:620px;
+}
+#mensal{
+    position: absolute;
+    width: 120px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 250px;
+    font-size:10px;
+    border:1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+}
+#mensal:hover{
+    width: 140px;
+    padding: 30px;
+    font-size: 15px;
+    border:2px solid gray;
+    text-align: center;
+}
+#semestral{
+    position: absolute;
+    width: 120px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 595px;
+    font-size:10px;
+    border:1px solid gray;
+    border-radius: 8px;
+    
+    
+}
+#semestral:hover{
+    width: 140px;
+    padding: 30px;
+    font-size: 15px;
+    border:2px solid gray;
+    text-align: center;
+}
+#anual{
+    position: absolute;
+    width: 120px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 920px;
+    font-size: 10px;
+    border:1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+}
+#anual:hover{
+    width: 140px;
+    padding: 30px;
+    font-size: 15px;
+    border:2px solid gray;
+    text-align: center;
+}
+#contato{
+    background-image: url("Fotos/contato.png");
+    width: 100%;
+    height: 75%;
+    position: relative; 
+    margin-top: 500px;
+    background-repeat: no-repeat;
+}
+h4{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 20px;
+    
+    color: white;
+    font-size: 25px;
+}
+#nome{
+    position: absolute;
+    margin-top:-400px;
+    margin-left: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+#telefone{
+    position: absolute;
+    margin-top:-350px;
+    margin-left: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+#email{
+    position: absolute;
+    margin-top:-300px;
+    margin-left: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+#mensagem{
+    position: absolute;
+    margin-left: 700px;
+    margin-top:-400px ;
+    font-family: 'Montserrat', sans-serif;
+}
+#enviar{
+    position: absolute;
+    margin-left: 650px;
+    margin-top:-230px;
+}
+.icones{
+    background-color:#ececec;
+    margin-top: -170px;
+    width: 100%;
+    height: 25%;
+    
+}
+#Logodois{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 220px;
+}
+#location{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 375px;
+}
+#logradouro{
+    font-size: 10px;
+    position: absolute;
+    margin-top: -127px;
+    margin-left: 400px;
+}
+#e-mail{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 775px;
+}
+#personal{
+    font-size: 10px;
+    position: absolute;
+    margin-top: -123px;
+    margin-left: 802px;
+
+}
+#phone{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 1010px;
+}
+#numero{
+    font-size: 10px;
+    margin-top: -116px;
+    margin-left: 1037px;
+}
+#linha{
+    color:#D3D3D3 ;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 200px;
+}
+#copyright{
+    position: absolute;
+    font-size: 10px;
+    margin-top: 90px;
+    margin-left: 215px;
+}
+#facebook{
+    position: absolute;
+    margin-top: 255px;
+    margin-left: 685px;
+}
+#face{
+    position: absolute;
+    font-size: 10px;
+    margin-top:97px;
+    margin-left: 708px;
+}
+#instagram{
+    position: absolute;
+    margin-top: 263px;
+    margin-left: 800px;
+}
+#insta{
+    position: absolute;
+    font-size:10px;
+    margin-top: 103px;
+    margin-left: 828px;
+}
+#twitter{
+    position: absolute;
+    margin-top: 270px;
+    margin-left:920px;
+}
+#twitt{
+    font-size: 10px;
+    position: absolute;
+    margin-top:109px ;
+    margin-left: 946px ;
+}
